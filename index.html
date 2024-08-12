@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title> calculator</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css"/>
+    </head>
+    <body>
+        <div id="container">
+            <div id="card">
+                <h1 id="title">calculator</h1>
+                <p id="alert" ></p>
+                <input id="result" placeholder="calculate something"/>
+                <div id="calc-box">
+                    <button id="calc-btn" onclick="input(7)">7</button>
+                    <button id="calc-btn" onclick="input(8)">8</button>
+                    <button id="calc-btn" onclick="input(9)">9</button>
+                    <button id="calc-btn" onclick="input('*')">*</button>
+
+                    <button id="calc-btn" onclick="input(4)">4</button>
+                    <button id="calc-btn" onclick="input(5)">5</button>
+                    <button id="calc-btn" onclick="input(6)">6</button>
+                    <button id="calc-btn" onclick="input('-')">-</button>
+
+                    <button id="calc-btn" onclick="input(1)">1</button>
+                    <button id="calc-btn" onclick="input(2)">2</button>
+                    <button id="calc-btn" onclick="input(3)">3</button>
+                    <button id="calc-btn" onclick="input('+')">+</button>
+
+                    <button id="calc-btn" onclick="input(0)">0</button>
+                    <button id="calc-btn" onclick="input('.')">.</button>
+                    <button id="calc-btn" onclick="cancel()">C</button>
+                    <button id="calc-btn" onclick="calc()">=</button>
+
+                    <button id="calc-btn" style="width: 40%" onclick="even()">EVEN</button>
+                    <button id="calc-btn" style="width: 40%" onclick="odd()">ODD</button>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
